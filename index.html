@@ -460,6 +460,28 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <p class="footer-subscribe-subtitle">Subscribe</p>
+          <form name="footer-subscribe-form" class="footer-subscribe-form">
+            <label class="footer-subscribe-label">
+              <input
+                type="email"
+                class="footer-subscribe-input"
+                placeholder="E-mail"
+              />
+            </label>
+            <button
+              class="footer-icon-fly footer-subscribe-btn"
+              type="button"
+              data-modal-open
+            >
+              Subscribe
+              <svg class="footer-subscribe-icon" width="24" height="24">
+                <use href="./images/icon.svg#icon-fly"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- Modal window -->
@@ -520,7 +542,7 @@
               <a href="#" class="modal-form-link">Privacy Policy</a></span
             >
           </label>
-          <button class="order-service" type="button" data-modal-open>
+          <button class="order-service" type="submit" data-modal-open>
             Send
           </button>
         </form>
