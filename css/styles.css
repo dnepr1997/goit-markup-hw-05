@@ -73,10 +73,10 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.header-logo {
+.logo {
    margin-right: 76px;
 }
-.header-logo {
+.header .logo {
     font-family: "Raleway",sans-serif;
     font-style: normal;
     font-weight: 800;
