@@ -628,7 +628,7 @@ address {
     visibility: hidden;
     pointer-events: none;
     opacity: 0; 
-}
+} 
 .modal {
     width: 408px;
     min-height: 584px;
@@ -683,27 +683,23 @@ address {
     letter-spacing: 0.32px;
     line-height: 1.5;
 }
-
-
-.modal-form {
-}
+/**
+  |============================
+  | 
+  |============================
+*/
 
 .modal-form-label {
-    display: block;
-    margin-bottom: 8px;
-    height: 58px;
-    position: relative;
     
-}
-
-.modal-form-slogan {
     display: block;
     color: #8E8F99;
-    font-size: 12px;        font-weight: 400;
+    font-size: 12px;
+    font-weight: 400;
     line-height: 14px;
     letter-spacing: 0.48px;
     margin-bottom: 4px;
 }
+
 
 .modal-form-input {
     width: 360px;
@@ -716,12 +712,20 @@ address {
     font-weight: 18px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-form-content {
+    position: relative;
+    
+}
 .modal-form-icon{
     position: absolute;
     bottom: 11px;
     left: 16px;
     stroke: #2E2F42;
     
+}
+
+.modal-form-div {
+    margin-bottom: 8px;
 }
 
 .modal-form-input:focus {
@@ -833,6 +837,7 @@ letter-spacing: 0.48px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    outline: none;
 }
 .footer-subscribe-input::placeholder {
     color: #FFF;
