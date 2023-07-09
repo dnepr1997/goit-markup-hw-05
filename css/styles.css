@@ -777,11 +777,13 @@ address {
     margin-bottom: 24px;
 }
 .modal-form-agreement-desc {
-color: #8E8F99;
-font-size: 12px;
-font-weight: 400;    
-line-height: 14px;
-letter-spacing: 0.48px;
+    color: #8E8F99;
+    font-size: 12px;
+    font-weight: 400;    
+    line-height: 14px;
+    letter-spacing: 0.48px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
 }
 .modal-form-link {
     color: #4D5AE5;

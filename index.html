@@ -539,26 +539,29 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="">
-            <label class="modal-form-agreement">
-              <input
-                class="modal-form-checkbox visually-hidden"
-                type="checkbox"
-              />
+          <div class="modal-form-agreement">
+            <input
+              class="modal-form-checkbox visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+            />
+            <label class="modal-form-agreement-desc" for="user-privacy"
+              >I accept the terms and conditions of the<a
+                href="#"
+                class="modal-form-link"
+                >Privacy Policy</a
+              >
               <span class="modal-form-custom-checkbox">
                 <svg class="modal-form-agreement-icon" width="10" height="8">
                   <use href="./images/icon.svg#icon-check"></use>
-                </svg>
-              </span>
-              <span class="modal-form-agreement-desc"
-                >I accept the terms and conditions of the
-                <a href="#" class="modal-form-link">Privacy Policy</a></span
-              >
-            </label>
-            <button class="order-service" type="submit" data-modal-open>
-              Send
-            </button>
+                </svg> </span
+            ></label>
           </div>
+          <button class="order-service" type="submit" data-modal-open>
+            Send
+          </button>
         </form>
       </div>
     </div>
