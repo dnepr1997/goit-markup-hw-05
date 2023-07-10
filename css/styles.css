@@ -468,9 +468,7 @@ address {
 .footer-network-link:focus {
     background-color: #31D0AA;
 }
-.footer-network-li {
-   
-}
+
 /**
   |============================
   | overlay
@@ -690,7 +688,6 @@ address {
 */
 
 .modal-form-label {
-    
     display: block;
     color: #8E8F99;
     font-size: 12px;
@@ -821,7 +818,7 @@ address {
   | footer subscribe
   |============================
 */
-.footer-subscribe {}
+
 
 .footer-subscribe-subtitle {
     color: #FFF;
